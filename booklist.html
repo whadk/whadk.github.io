@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: whitesmoke;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 750px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<div w3-include-html="sidenav.html"></div>
+
+
+<span style="font-size:30px;font-family:'Inconsolata',monospace;cursor:pointer" onclick="openNav()">&#9776; whadk</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
+
+  
+<h5 class="code-line" data-line-start=0 data-line-end=1 ><a id="Booklist_nonfiction_only_0"></a>Booklist (non-fiction only)</h5>
+<ul>
+<li class="has-line-data" data-line-start="1" data-line-end="2">Doing Good Better (Read)</li>
+<li class="has-line-data" data-line-start="2" data-line-end="3">Atomic Habits (Read)</li>
+<li class="has-line-data" data-line-start="3" data-line-end="4">Thinking, Fast and Slow (Reading)</li>
+<li class="has-line-data" data-line-start="4" data-line-end="5">Can’t Hurt Me (Reading)</li>
+<li class="has-line-data" data-line-start="5" data-line-end="6">The Book of Why / Causality</li>
+<li class="has-line-data" data-line-start="6" data-line-end="7">Steal like an artist</li>
+<li class="has-line-data" data-line-start="7" data-line-end="8">How the mind works</li>
+<li class="has-line-data" data-line-start="8" data-line-end="9">The precipice (I’ve read parts of it, but not the full thing properly)</li>
+</ul>
+  
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>
+w3.includeHTML();
+</script>
+
+
+
+
